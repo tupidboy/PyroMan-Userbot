@@ -22,6 +22,7 @@ ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
+BLACKLIST_CHAT = -1001557742716
 BOT_VER = "0.1.0@main"
 BRANCH = "main"
 CHANNEL = getenv("CHANNEL", "Lunatic0de")
